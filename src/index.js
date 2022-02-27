@@ -1,5 +1,5 @@
 import React from 'react';
-import reactDOM from 'react-dom';
+import ReactDOM from 'react-dom';
 
 const App = () =>{
     return (
@@ -13,3 +13,7 @@ const App = () =>{
         </div>
     )
 }
+ReactDOM.render(
+    <App />,
+    document.querySelector('#root')
+);

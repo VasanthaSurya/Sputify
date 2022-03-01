@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import CardsRow from './CardsRow';
-import LeftNav from './LeftNav';
+import CardsRow from './components/CardsRow';
+import LeftNav from './components/LeftNav';
+import Card from './components/Card';
 
 const App = () =>{
     return (
@@ -23,6 +24,7 @@ const App = () =>{
                     </div>
                 </div>
             </div>
+            <Card cardTitle="Bollywood Blutters"/>
         </div>
     )
 }

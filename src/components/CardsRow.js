@@ -5,7 +5,7 @@ const CardsRow = (props) =>{
     return (
         <div className="flex-column">
             <div className="w-100">
-                <h4>{props.cardRowName}</h4>
+                <h4 className="text-white">{props.cardRowName}</h4>
             </div>
             <div className="w-100 d-inline-flex flex-row">
             <div className="p-2">

@@ -27,8 +27,7 @@ class Card extends React.Component{
     render() {
         return (
             <div 
-            className={"card " + this.state.bgcolor}
-            id="card-background" 
+            className={"card d-flex col " + this.state.bgcolor}
             onMouseEnter={this.after}
             onMouseLeave={this.before}
             style={{width:"12rem",height:"18rem"}}>

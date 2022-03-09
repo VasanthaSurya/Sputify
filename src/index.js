@@ -9,7 +9,7 @@ const App = () =>{
             <div className='d-flex flex-row'>
                 <LeftNav />
                 <div className='container w-90 flex-row'>
-                    <div className='flex-row'>
+                    <div className='container flex-row'>
                         <CardsRow cardRowName="India's Best"/>
                     </div>
                     <div className='flex-row'>

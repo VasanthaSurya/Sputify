@@ -5,16 +5,16 @@ const MainScroll = ()=>{
     return (
         <main className="position-absolute">
             <div className='container flex-row'>
-                     <div className='flex-row overflow-scroll'>
+                     <div className=''>
                          <CardsRow cardRowName="India's Best"/>
                      </div>
-                     <div className='flex-row overflow-scroll'>
+                     <div className=''>
                          <CardsRow cardRowName="Charts"/>
                      </div>
-                     <div className='flex-row overflow-scroll'>
+                     <div className=''>
                          <CardsRow cardRowName="Focus"/>
                      </div>
-                     <div className='flex-row overflow-scroll'>
+                     <div className=''>
                          <CardsRow cardRowName="Pop"/>
                      </div>
                  </div>

@@ -3,12 +3,12 @@ import Card from './Card';
 
 const CardsRow = (props) =>{
     return (
-        <div className="flex-column row">
+        <div className="row">
             <div className="w-100">
                 <h4 className="text-white">{props.cardRowName}</h4>
             </div>
-            <div className="w-100 d-inline-flex flex-row">
-            <div className="p-2 d-flex flex-row">
+            <div className="w-100 d-inline-flex">
+            <div className="p-2">
                 <Card cardTitle="Bollywood Blutters"/>
             </div>
             <div className="p-2">

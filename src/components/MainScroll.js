@@ -4,7 +4,7 @@ import CardsRow from './CardsRow';
 const MainScroll = ()=>{
     return (
         <main className="position-absolute">
-            <div className='container flex-row'>
+            <div className='mhandsc container flex-row'>
                      <div className=''>
                          <CardsRow cardRowName="India's Best"/>
                      </div>

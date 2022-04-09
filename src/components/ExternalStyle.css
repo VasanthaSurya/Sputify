@@ -14,3 +14,30 @@
 .container::-webkit-scrollbar { 
     display: none;  /* Safari and Chrome */
 }
+*::-webkit-scrollbar{
+  display: none;
+}
+.scrollx{
+  overflow-x: scroll;
+}
+.mhandsc{
+  overflow  : scroll;
+  height: 100vh;
+}
+body{
+  scroll-behavior: unset;
+  position: fixed;
+  width: 100%;
+}
+.myBody{
+  height: 100vh;
+}
+span{
+    cursor: pointer;
+}
+.center{
+    width: 100%;
+}
+.rowhead{
+    scroll-behavior: unset;
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "./Logo";
+import "./ExternalStyle.css";
 
 const LeftNavigation = ()=>{
     return (

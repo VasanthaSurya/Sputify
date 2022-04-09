@@ -14,3 +14,33 @@
 .container::-webkit-scrollbar { 
     display: none;  /* Safari and Chrome */
 }
+*::-webkit-scrollbar{
+    display: none;
+}
+.row{
+    overflow-x: scroll;
+}
+.cards{
+    /* background-color: aqua; */
+    overflow: scroll;
+    height: 100vh;
+}
+body{
+    scroll-behavior: unset;
+    position: fixed;
+    width: 100%;
+}
+.myBody{
+    height: 100vh;
+}
+span{
+    color: white;
+    cursor: pointer;
+}
+.topCard{
+    padding-top:1.5%;
+    width: 100%;
+}
+.center{
+    width: 100%;
+}

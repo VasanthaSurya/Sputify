@@ -1,7 +1,7 @@
 import React from "react";
 import logoimg from "./kolly.png";
 import play from "./play.png";
-
+import "./ExternalStyle.css";
 class Card extends React.Component{
     constructor(props) {
         super(props);

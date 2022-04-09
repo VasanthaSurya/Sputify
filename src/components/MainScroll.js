@@ -1,10 +1,11 @@
 import React from "react";
 import CardsRow from './CardsRow';
+import "./ExternalStyle.css";
 
 const MainScroll = ()=>{
     return (
         <main className="position-absolute">
-            <div className='container flex-row'>
+            <div className='cards container flex-row'>
                      <div className=''>
                          <CardsRow cardRowName="India's Best"/>
                      </div>

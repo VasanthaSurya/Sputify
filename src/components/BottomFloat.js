@@ -2,14 +2,14 @@ import React from "react";
 
 const BottomFloat = ()=>{
     return (
-        <div className="d-flex justify-content-between flex-wrap fixed-bottom bg-dark">
+        <div className="d-flex justify-content-between flex-wrap fixed-bottom gradbtm ps-4 pe-3">
             <div className="p-2">
-                <h6 className="text-light">Preview of Spotify</h6>
-                <b className="text-light">Sign up to get unlimited songs and podcasts with occasional ads.No credit card needed.</b>
+                <p className="text-light m-0 small-text">PREVIEW OF SPUTIFY</p>
+                <b className="text-light text-wrap">Sign up to get unlimited songs and podcasts with occasional ads.No credit card needed.</b>
             </div>
             <div className="p-2">
-                <button className="button button-primary">
-                    Sign up free
+                <button className="rounded-pill largebtn">
+                    <b>Sign up free</b>
                 </button>
             </div>
         </div>

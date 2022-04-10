@@ -8,9 +8,9 @@ import "./components/ExternalStyle.css";
 
 const App = ()=>{
     return (
-        <div className="container-fluid bg-dark overflow-hidden">
+        <div className="container-fluid dark p-0 overflow-hidden">
             <div className="d-flex flex-col myBody">
-                <div className="">
+                <div className="leftnav dark-bg">
                     <LeftNavigation />
                 </div>
                 <div className="flex-row overflow-hidden w-100">

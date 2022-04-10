@@ -28,6 +28,7 @@ body{
   scroll-behavior: unset;
   position: fixed;
   width: 100%;
+  background-color: rgb(30, 30, 30);
 }
 .myBody{
   height: 100vh;
@@ -40,4 +41,58 @@ span{
 }
 .rowhead{
     scroll-behavior: unset;
+}
+
+.gradbtm {
+  background-image: linear-gradient(to right, rgb(214, 51, 255) , rgb(153, 214, 255));
+}
+
+.largebtn{
+    height: 3rem;
+    width: 10rem;
+}
+
+.small-text{
+    font-size: small;
+}
+
+.dark-bg{
+    background-color: black;
+}
+
+.dark-primary{
+    background-color: rgb(15, 15, 15);
+}
+
+.leftnav{
+    width: 19%;
+    height: 100%;
+}
+
+.topfloat{
+    height: 8%;
+}
+
+.navarrow{
+    font-size: small;
+}
+
+.btnsml{
+    width: 7rem;
+    height: 3rem;
+}
+
+.navlinks{
+    text-decoration: none;
+    color:antiquewhite;
+    height:90%
+}
+
+.logo{
+    font-size: x-large;
+}
+
+.logoimg{
+    height: 3rem;
+    width: 3rem;
 }
